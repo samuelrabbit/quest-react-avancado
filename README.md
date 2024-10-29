@@ -1,8 +1,18 @@
-# React + Vite
+<h1>Quest React Avançado - DevQuest </h1>
+<p>Esta aplicação foi proposta pelo curso DevQuest</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<ul>Onde os requisitos obrigatórios foram:</ul>
+<li>A aplicação deverá ser Single Page Application (SPA);</li>
+<li>Utilizar React.js para o desenvolvimento da
+aplicação;</li>
+<li>Utilizar Context API para criação do Theme Toggler
+(Alternador entre tema claro e escuro);</li>
+<li>Utilizar styled-components para estilização dos
+componentes;</li>
+<li>Utilizar react-router-dom para a navegação entre as
+páginas;</li>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h3>Dificuldades e desafios</h3>
+<p>Minha maior dificuldades foi na hora de implementar o Dark and Ligth mode, pois o não estava conseguindo fazer o GloblalStyle "pegar" o valor atual do 'theme', então a solução que tive após muita pesquisa foi a seguinte:
+</p>
+<img src="./public/app.jsx.png">
